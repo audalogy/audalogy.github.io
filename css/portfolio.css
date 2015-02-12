@@ -752,7 +752,7 @@ footer {
     background-color: white;
     bottom:0;
     width:100%;
-    z-index:1053;
+    z-index:1040;
 /*    position:absolute;
     bottom: 0;
     left: 0;
@@ -937,6 +937,13 @@ padding-left: 36px;
 width:90%;
 height:auto;
 padding-left:96px;
+}
+
+#inner_banner {
+width:auto;
+height:auto;
+margin-left:auto;
+margin-right:auto;
 }
 
 .portfolioContainer .mix{   
