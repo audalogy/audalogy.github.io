@@ -810,9 +810,15 @@ ul.social-buttons li a:active {
 
 .portfolio-modal .modal-content {
     padding: 100px 0;
-    min-height: 100%;
-    border: 0;
-    border-radius: 0;
+   /* min-height: 100%;
+    width: 90%;
+    border: 0px; 
+    border-radius: 0px; */
+    position:absolute;
+    min-height:90%;
+    width:90%;
+    left:5%; /* (100 - width) divided by 2*/
+    top:5%; /*(100 - height) divided by 2*/
     background-clip: border-box;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -942,8 +948,14 @@ padding-left:96px;
 #inner_banner {
 width:auto;
 height:auto;
-margin-left:auto;
-margin-right:auto;
+display: block;
+margin-left: auto;
+margin-right: auto
+}
+
+.centeredImage{
+    text-align:center;
+    padding:0px;
 }
 
 .portfolioContainer .mix{   
