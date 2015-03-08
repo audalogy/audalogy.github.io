@@ -928,7 +928,8 @@ text-align: center;
 #sub_title {
 font-family: Oswald;
 font-size: 1.7em ;
-margin: 0px 0px 30px 0px;
+margin-right: auto;
+margin-bottom: 30px;
 color: #705925;
 text-align: center;
 }
@@ -946,10 +947,10 @@ padding-left:96px;
 }
 
 #inner_banner {
-width:auto;
+width:80%;
 height:auto;
 display: block;
-margin-left: auto;
+margin-left: 8%;
 margin-right: auto
 }
 
@@ -971,6 +972,9 @@ margin-right: auto
 
 .push3 {
     margin-top: 16px;
+    width:80%;
+    left:5%; /* (100 - width) divided by 2*/
+    top:10%; /*(100 - height) divided by 2*/
 }
 
 .push4 {
