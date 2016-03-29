@@ -271,7 +271,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url(../img/Data-Driven-UX-Design.png);
+    background-image: url(../img/splash.png);
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -668,6 +668,7 @@ section h3.section-subheading {
 
 aside.clients img {
     margin: 50px auto;
+    margin-bottom: 135px;
 }
 
 aside h2.section-heading {
@@ -1003,7 +1004,7 @@ margin-right: auto
     font-size: 1.1em ;
     text-align: left;
     color:#5B5B5B;
-    margin: 10px auto;
+    margin-right: 3px;
 }
 
 .row p3 {
@@ -1060,5 +1061,86 @@ margin-right: auto
    color: #66CC99;
    text-decoration: none;
 }    
+
+/*CAROUSEL*/
+.concept-carousel-left, 
+    .concept-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 500ms;
+        -moz-transition: 500ms;
+        -o-transition: 500ms;
+        -ms-transition: 500ms;
+        transition: 500ms;
+    }
+
+    .concept-carousel-left {
+        left:0px;
+    }
+
+    .concept-carousel-right {
+        right:0px;
+    }
+
+/*    #concept-carousel:hover .concept-carousel-left {
+        left:0;
+    }
+
+    #concept-carousel:hover .concept-carousel-right {
+        right:0;
+    }*/
+
+    #concept-carousel .item img{
+        width: 100%;
+    }
+
+.screen-carousel-left, 
+    .screen-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 500ms;
+        -moz-transition: 500ms;
+        -o-transition: 500ms;
+        -ms-transition: 500ms;
+        transition: 500ms;
+    }
+
+    .screen-carousel-left {
+        left:0px;
+    }
+
+    .screen-carousel-right {
+        right:0px;
+    }
+
+/*    #screen-carousel:hover .screen-carousel-left {
+        left:0;
+    }
+
+    #screen-carousel:hover .screen-carousel-right {
+        right:0;
+    }*/
+
+    #screen-carousel .item img{
+        width: 100%;
+    }
 
 
