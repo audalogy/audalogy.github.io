@@ -1076,11 +1076,11 @@ margin-right: auto
         top: 50%;
         width: 32px;
         z-index: 999;
-        -webkit-transition: 500ms;
-        -moz-transition: 500ms;
-        -o-transition: 500ms;
-        -ms-transition: 500ms;
-        transition: 500ms;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
     }
 
     .concept-carousel-left {
@@ -1090,14 +1090,6 @@ margin-right: auto
     .concept-carousel-right {
         right:0px;
     }
-
-/*    #concept-carousel:hover .concept-carousel-left {
-        left:0;
-    }
-
-    #concept-carousel:hover .concept-carousel-right {
-        right:0;
-    }*/
 
     #concept-carousel .item img{
         width: 100%;
@@ -1116,11 +1108,11 @@ margin-right: auto
         top: 50%;
         width: 32px;
         z-index: 999;
-        -webkit-transition: 500ms;
-        -moz-transition: 500ms;
-        -o-transition: 500ms;
-        -ms-transition: 500ms;
-        transition: 500ms;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
     }
 
     .screen-carousel-left {
@@ -1142,5 +1134,88 @@ margin-right: auto
     #screen-carousel .item img{
         width: 100%;
     }
+
+
+.slides-carousel-left, 
+    .slides-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
+    }
+
+    .slides-carousel-left {
+        left:0px;
+    }
+
+    .slides-carousel-right {
+        right:0px;
+    }
+
+/*    #screen-carousel:hover .screen-carousel-left {
+        left:0;
+    }
+
+    #screen-carousel:hover .screen-carousel-right {
+        right:0;
+    }*/
+
+    #slides-carousel .item img{
+        width: 100%;
+    }
+
+
+.bmc-carousel-left, 
+    .bmc-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
+    }
+
+    .bmc-carousel-left {
+        left:0px;
+    }
+
+    .bmc-carousel-right {
+        right:0px;
+    }
+
+/*    #screen-carousel:hover .screen-carousel-left {
+        left:0;
+    }
+
+    #screen-carousel:hover .screen-carousel-right {
+        right:0;
+    }*/
+
+    #bmc-carousel .item img{
+        width: 100%;
+    }
+
 
 
