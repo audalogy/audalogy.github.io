@@ -87,7 +87,7 @@
         <div class="container">
             <div class="intro-text">
                 <div class="intro-lead-in">Hi, I'm Audrey!</div>
-                <div class="intro-heading">User-Inspired and Data-Informed. <br> Perpetually curious.</div>
+                <div class="intro-heading">User-Centered and Data-Informed. <br> Perpetually curious.</div>
                 <a href="#services" class="page-scroll btn btn-xl">Learn More</a>
             </div>
         </div>
@@ -108,7 +108,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-lightbulb-o fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Business Design & Strategy</h4>
+                    <h4 class="service-heading">Design Strategy</h4>
                     <li class="text-muted">Design Thinking</li>
                     <li class="text-muted">Strategy & Innovation</li>
                     <li class="text-muted">Business Model Canvas</li>
@@ -121,7 +121,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-users fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">User Experience Design & Research</h4>
+                    <h4 class="service-heading">UX Research & Design</h4>
                     <li class="text-muted">Qualitative Research</li>
                     <li class="text-muted">Quantitative Research</li>
                     <li class="text-muted">Low/Mid-Fi Prototyping</li>
@@ -134,7 +134,7 @@
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-code fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="service-heading">Data & Development</h4>
+                    <h4 class="service-heading">Data Visualization</h4>
                     <li class="text-muted">HTML/CSS</li>
                     <li class="text-muted">d3.js, Tableau</li>
                     <li class="text-muted">Boostrap, JQuery</li>
@@ -631,7 +631,7 @@
                     
                     <div class= "col-xs-12 push3">
                         <h7>THE PROCESS <br> </h7>
-                        <p2> This is an interdisciplinary project, combining user research, hardware sensor data mining and machine learning, user experience design, and Android wear development. <br><br>
+                        <p2> This was an interdisciplinary project, combining user research, hardware sensor data mining and machine learning, user experience design, and Android wear development. <br><br>
 
                         Industry Landscape Analysis and Secondary Research <br>
                         We performed research on the background of various mental health disorders, phases and types of depression, and the competitive landscape. We also researched prior research and publications on the topic of mood analysis and mental health interventions through mobile or wearable devices. Through our research, we identified five indicators of depression detectable through wearable sensors: social interaction, mobility, sleep patterns, phone usage, and nocturnal temperature. Through interviewing several psychologists and medical experts, we found that depression was often comorbid with sleep, which is currently readily trackable through current wearable devices. Therefore, we decided to focus on initially addressing this concern in order to increase overall happiness and emotional well-being. <br><br>
@@ -647,22 +647,34 @@
                         <li> Interviews </li>
                         <li> Usability Study </li>
 
-                         <br><br>
+                         <br>
 
                         Data Collection and Predictive Modeling of Mood <br>
                         We created a mobile application to collect self-reported mood and activity scores using the experience sampling method (ESM) as well as linked Fitbit data to a local server. Then, we recruited 18 participants to track and report their Fitbit data as well as complete our surveys over a two-week period. Participants that downloaded our application were prompted via a notification on their smartphone, randomly four times per day to complete a mood survey designed to assess their current mood. The questions were derived from the two dimensional Circumplex Mood Model, which corresponds to dimensions of pleasure and arousal. <br><br>
 
-                        As a benchmark for comparison, the baseline accuracy was 45% — predicting the majority class, which was a neutral mood. Many of the other classifiers we tried as group, such as SVM, linear regression, and decision trees, performed worse than the baseline. Our top results came from using the aggregated dataset (aggregate activity and mood by day) as well as discrete mood data. Our best results came from the random forest, neural network and logistic regression algorithms, with the highest accuracy of mood-prediction at 80 percent. <br><br>
+                        As a benchmark for comparison, the baseline accuracy was 45% — predicting the majority class, which was a neutral mood. Many of the other classifiers we tried as group, such as SVM, linear regression, and decision trees, performed worse than the baseline. Our top results came from using the aggregated dataset (aggregate activity and mood by day) as well as discrete mood data. Our best results came from the random forest, neural network and logistic regression algorithms, with the highest accuracy of mood-prediction at 80%. <br><br>
 
                         High-Fidelity Prototyping <br>
                         We conducted a design sprint to brainstorm several different concept designs for the interventions in the form of cognitive behavioral therapy for insomnia as well as positive psychology on Android Wear and mobile devices. All of our brainstormed interventions fell into one of three psychotherapy groups: relaxation and mindfulness, positive psychology, and cognitive behavioral therapy. In total, we produced high-fidelity working prototypes for the Android smartwatch for four of the interventions using Sketch, InVision, and Android Studio. <br>
+
+                        In the evening, the user is prompted to put the day to rest.
+
+                        <br><img id="inner_banner" src="img/portfolio/eudaesense/PM.png" alt="EudaeSense evening"><br>
+
+                        In the morning, the is reminded of previous day’s "to do" item upon waking.
+
+                        <br><img id="inner_banner" src="img/portfolio/eudaesense/AM.png" alt="EudaeSense morning"><br>
+
+
                     </div>
 
                     <div class= "col-xs-12 push3">
                         <h7>THE OUTCOME<br> </h7>
-                        <p2>Our solution was a system that passively collected user data via biometric sensors, which was used to infer early signs of potential depressed mood and suggest behavioral interventions. Our smartphone/smartwatch application collected this data and transmitted it to a back-end system that used generalized machine learning models to predict possible mood changes. <br><br>
+                        <p2> Based on tracked physiological data, experience sampling, and an ever-improving machine learning algorithm, EudaeSense sends personalized mood-lifting exercises or interventions to the user throughout the day.<br><br>
 
-                        <p2> Based on these predictions, our application suggested behavioral interventions. Interventions were derived from existing research on cognitive behavioral therapy, in tandem with expert interviews and user studies which uncovered new and novel approaches to digital mental health management. These contextually-relevant, just-in-time interventions were pushed to users discreetly on their smartwatch. <p2>
+                        <br><img id="inner_banner" src="img/portfolio/eudaesense/diagram.png" alt="EudaeSense Diagram"><br>
+
+                        The predictive mood-lifting exercises were derived from existing research on cognitive behavioral therapy, in tandem with expert interviews and user studies which uncovered new and novel approaches to digital mental health management. These contextually-relevant, just-in-time interventions were pushed to users discreetly on their smartwatch. </p2>
                         
                     </div>
 
