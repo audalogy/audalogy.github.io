@@ -19,7 +19,7 @@ body {
 }
 
 .text-primary {
-    color: #66CC99;
+    color: #EB4833;
 }
 
 p {
@@ -74,12 +74,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #66CC99;
+    border-color: #EB4833;
     text-transform: uppercase;
     font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .btn-primary:hover,
@@ -89,7 +89,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .btn-primary:active,
@@ -113,25 +113,25 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #66CC99;
-    background-color: #66CC99;
+    border-color: #EB4833;
+    background-color: #EB4833;
 }
 
 .btn-primary .badge {
-    color: #66CC99;
+    color: #EB4833;
     background-color: #fff;
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #66CC99;
+    border-color: #EB4833;
     border-radius: 3px;
     text-transform: uppercase;
     font-family: Oswald,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .btn-xl:hover,
@@ -141,7 +141,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #f6bf01;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .btn-xl:active,
@@ -165,12 +165,12 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #66CC99;
-    background-color: #66CC99;
+    border-color: #EB4833;
+    background-color: #EB4833;
 }
 
 .btn-xl .badge {
-    color: #66CC99;
+    color: #EB4833;
     background-color: #fff;
 }
 
@@ -182,14 +182,14 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Oswald","Helvetica Neue",Helvetica,Arial,cursive;
     text-transform: uppercase;
-    color: #66CC99;
+    color: #EB4833;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    color: #66CC99;
+    color: #EB4833;
 }
 
 .navbar-default .navbar-collapse {
@@ -197,8 +197,8 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #66CC99;
-    background-color: #66CC99;
+    border-color: #EB4833;
+    background-color: #EB4833;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -207,7 +207,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .navbar-default .nav li a {
@@ -221,19 +221,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #66CC99;
+    color: #EB4833;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 @media(min-width:768px) {
@@ -507,7 +507,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .timeline>li .timeline-image h4 {
@@ -710,7 +710,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #66CC99;
+    border-color: #EB4833;
     box-shadow: none;
 }
 
@@ -799,7 +799,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #66CC99;
+    background-color: #EB4833;
 }
 
 .btn:focus,
@@ -887,12 +887,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #66CC99;
+    background: #EB4833;
 }
 
 ::selection {
     text-shadow: none;
-    background: #66CC99;
+    background: #EB4833;
 }
 
 img::selection {
@@ -906,7 +906,7 @@ img::-moz-selection {
 }
 
 body {
-    webkit-tap-highlight-color: #66CC99;
+    webkit-tap-highlight-color: #EB4833;
 }
 
 /*Below CSS for the portfolio modal inspired by Andrew Ku (www.andrewisku.com) */ 
@@ -1018,7 +1018,7 @@ margin-right: auto
 }
 .thickline {
     height: 4.341px;
-    background-color: #66CC99; 
+    background-color: #EB4833; 
 }
 
 .startline { 
@@ -1031,7 +1031,7 @@ margin-right: auto
 
 .thinline {
     height: 1.463px;
-    background-color: #66CC99; 
+    background-color: #EB4833; 
 }
 
 .under_nav {
@@ -1040,7 +1040,7 @@ margin-right: auto
     color: #31849b;
     font-size: 1em;
     margin-top:10px;
-    border-bottom: 1px solid #66CC99;
+    border-bottom: 1px solid #EB4833;
     vertical-align: baseline;
     padding-bottom: 2.5px;
     font-weight: 700;
@@ -1058,7 +1058,7 @@ margin-right: auto
 }
 
 .under_nav:hover {
-   color: #66CC99;
+   color: #EB4833;
    text-decoration: none;
 }    
 
