@@ -37,6 +37,9 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
+    border: 0;
+    text-decoration: none;
+    color: #EB4833;
 }
 
 a {
@@ -47,7 +50,10 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #EB4833;
+    outline: 0;
+    border: 0;
+    border: 0;
+    text-decoration: none;
 }
 
 h1
@@ -361,6 +367,62 @@ section h3.section-subheading {
 .service-heading {
     margin: 15px 0;
     text-transform: none;
+}
+
+.isotope-item {
+        z-index: 2;
+    }
+    .isotope-hidden.isotope-item {
+        z-index: 1;
+    }
+    .isotope, .isotope .isotope-item {/* change duration value to whatever you like */
+        -webkit-transition-duration: 0.8s;
+        -moz-transition-duration: 0.8s;
+        transition-duration: 0.8s;
+    }
+    .isotope {
+        -webkit-transition-property: height, width;
+        -moz-transition-property: height, width;
+        transition-property: height, width;
+    }
+    .isotope .isotope-item {
+        -webkit-transition-property: -webkit-transform, opacity;
+        -moz-transition-property:-moz-transform, opacity;
+        transition-property:transform, opacity;
+    }
+
+.portfolio-wrapper ul.filter{
+        list-style: none;
+        font-family: 'Roboto',"Helvetica Neue",Helvetica,Arial,sans-serif;
+        padding: 0;
+        margin-bottom: 35px;
+        margin-top: 28px;
+        overflow: hidden;
+    }
+
+    .portfolio-wrapper ul.filter li{
+        float: left;
+        text-transform: uppercase;
+        margin-right: 25px;
+        font-weight: 600;
+    }
+
+    .portfolio-wrapper ul.filter li a{
+        color: #909090;
+    }
+
+    .portfolio-wrapper ul.filter li a:hover,
+    .portfolio-wrapper ul.filter li a.active{
+        color: #000;
+    }
+
+.portfolio-wrapper .portfolio-items{
+        clear: both;
+    }
+
+.portfolio-wrapper .portfolio-link{
+    position: relative;
+    margin-bottom: 30px;
 }
 
 #portfolio .portfolio-item {
