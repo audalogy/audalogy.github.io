@@ -38,7 +38,7 @@ $('.navbar-collapse ul li a').click(function() {
 			$container.show();
 			$container.isotope({
 				filter:'*',
-				layoutMode:'masonry',
+				layoutMode:'fitRows',
 				animationOptions:{
 					duration:750,
 					easing:'linear'
@@ -95,14 +95,14 @@ $('.navbar-collapse ul li a').click(function() {
 	});
 }()); 
 
-// -------------------------------------------------------------
-// masonry
-// -------------------------------------------------------------
+// // -------------------------------------------------------------
+// // masonry
+// // -------------------------------------------------------------
 
-(function () {
-	var $container = $('.portfolio-items');
-	// initialize
-	$container.masonry({
-	  itemSelector: '.work-grid'
-	});
-}());	
+// (function () {
+// 	var $container = $('.portfolio-items');
+// 	// initialize
+// 	$container.masonry({
+// 	  itemSelector: '.work-grid'
+// 	});
+// }());	
