@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>AUDREY LEUNG - User Experience Researcher</title>
+<link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96" />
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="index.html" class="site-title-text">AUDREY LEUNG</a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+
+<!-- Single Project Section -->
+
+<section id="single-project">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h1>Menu Journeys</h1>
+                    <h5>Information visualization exploring the menu collection of the New York Public Library</h5>
+                    <a href="http://people.ischool.berkeley.edu/~carlos/menujourneys/" target="_blank"><i class="fa fa-long-arrow-right"></i> View Website</a>
+
+                    <div class="col-md-12 col-sm-12">
+                    <img src="images/menujourneys/06treemap.jpg" class="img-responsive" alt="Menu Journeys Screenshot">
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Roles</h3>
+                         <h5>Exploratory Data Analysis <br>
+                         Data Visualization <br> Front-End Development</h5>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Tools</h3>
+                         <h5>Tableau <br> d3.js <br> Highcharts <br> Bootstrap</h5>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Deliverables</h3>
+                          <a href="http://people.ischool.berkeley.edu/~carlos/menujourneys/" target="_blank"><p3>Website <i class="fa fa-external-link"></i><br></p3></a>
+                        <a href="images/menuJourneys/Final Write-Up_MenuJourneys.pdf" target="_blank"><p3>Final Report <i class="fa fa-external-link"></i><br></p3></a>
+                         <a href="https://www.youtube.com/watch?v=K_UYdzUNRzQ" target="_blank"><p3>Guided Video Tour <i class="fa fa-external-link"></i><br></p3></a>
+                        <a href="https://github.com/carlooos/menujourneys" target="_blank"><p3>Github Repository <i class="fa fa-external-link"></i><br></p3></a>      
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <strong>GOALS</strong>
+                         <p>The primary goal of the project was to help future researchers or students understand what data was contained in the restaurant menu archive, to help them have a better grasp of the distribution and scope of the information prior to them undertaking efforts to identify trends or correlations across different variables contained in the data set. To achieve this, we set out to create a website that shows the user how we analyzed, clustered, and wrangled the hand-transcribed menu data. <br><br>
+
+                         The secondary goal after laying out the data was to clean noisy data (incorrectly transcribed, non-US related, etc.), organize the remaining information into clusters and look into what we can possibly visualize in the selected data for the top 25 curated dish categories from the data set.</p>
+                         
+                         <br><br>
+                         
+                         <strong>PROCESS</strong>
+                         <p>First we researched existing attempts to communicate food consumption related to socio-economic factors and/or food trends over time. We then looked various ways to visualize the data that was provided in the archive such as force-directed tree graphs, co-occurrence matrices, and tree maps. We also explored the menu dataset using Tableau to explore and manipulate data around prices, frequency, and menu location. <br><br>
+
+                         In the data cleaning and wrangling process, we clustered similarly named dishes and normalized their frequencies. Although the majority of dishes only appeared once, some dishes were stated several different ways and could have been grouped and identified as the same dish. To account for this, we created a "fingerprint" for each item, plus how many and which items fell under each fingerprint. Using these fingerprints, we formed 25 “mega clusters” to further group together similar items and 7 categories to group together the “mega clusters.”We also normalized the frequency of dishes according to the number of menus in record for that year. </p>
+
+                         <br><img src="images/menuJourneys/02fingerprints_resize.png" alt="Fingerprints"><br><br>
+
+                         <img src="images/menuJourneys/03normalizing_resize.png" alt="Fingerprints"><br><br>
+
+                         <p> Below is a paper prototype layout of the exploratory data visualization along with some planned interactions. </p> <br><br>
+
+                         <img src="images/menuJourneys/04paperprototype_resize.jpg" alt="Paper Prototype"><br><br>
+
+                         <p> Below is an initial prototype of our visualization of menu item location, price, frequency, geographical distribution, and menus. </p>
+                         </p> <br><br>
+
+                         <img src="images/menuJourneys/01mockup_resize.png" alt="Mockup"><br><br>
+
+                         <p> Below is a prototype of an exploratory dashboard visualization using Tableau showing
+                         menu item location, number of dishes in the dataset, price fluctuations, and location of
+                         the menus in the US.</p> <br><br> 
+
+                         <img src="images/menuJourneys/05tableau_resize.png" alt="Tableau Dashboard"><br><br>
+
+                         <p>While we were coding the force-directed graph, we encountered a nasty hairball obstacle and had to shift our course as a result. <br><br> 
+
+                         In our final visualization, we chose appropriate graphic forms and principles for visualizing the data. In coding the layout and interactions, we used a bootstrap template to structure the webpage and tell the story of the archive. We evaluated the visualization with three users who were interested in menu archives to walk through our visualization and evaluated how well they understood what the visualizations represented and whether it provided new insights or takeaways. </p> 
+                         
+                         <br><br>
+                         
+                         <strong>OUTCOME</strong>
+                         <p>We went through several rounds of user testing with researchers throughout the development process to clarify our visualization strategy and our overall narrative in Menu Journeys. <br><br>
+
+                         One researcher had access to early iterations of the force-directed graph and called it quite confusing, to say the least, which was apparent to everyone else on our team as well. She suggested exploring alternative methods to visualize co-occurrence, such as a matrix, which also ultimately proved to be too challenging to implement under the constraints of our dataset and the deadline at hand.<br><br>
+
+                         Another researcher suggested a multi-pronged approach to our design -- using many visualizations woven together to tell a story -- which is the direction our team ultimately took. She cautioned against the use of an all-encompassing dashboard tool and instead wanted to be guided toward inspiring insights. <br><br> 
+
+                         Perhaps the most valuable user-testing session was with a former researcher for the federal Food and Drug Administration. He particularly liked the feature in our cluster tree map that allowed him to directly search the NYPL menu archive based on dish names via hyperlink, which we implemented following feedback from our professor. <br></p>
+
+                         
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© 2018 Audrey Leung</p>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <ul class="social-icon">
+                         <li><a href="https://www.linkedin.com/in/audreyleung/" class="fa fa-linkedin"></a></li>
+                         <li><a href="https://github.com/audalogy" class="fa fa-github"></a></li>
+                         <li><a href="mailto:audalogy@gmail.com" class="fa fa-envelope"></a></li>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>

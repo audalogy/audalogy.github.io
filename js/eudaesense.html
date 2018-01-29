@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<title>Magnet - Minimal Portfolio Template</title>
+
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Main css -->
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,700" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- PRE LOADER -->
+
+<div class="preloader">
+     <div class="sk-spinner sk-spinner-wordpress">
+          <span class="sk-inner-circle"></span>
+     </div>
+</div>
+
+<!-- Navigation section  -->
+
+<div class="navbar navbar-default navbar-static-top" role="navigation">
+     <div class="container">
+
+          <div class="navbar-header">
+               <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+                    <span class="icon icon-bar"></span>
+               </button>
+               <a href="index.html" class="site-title-text">AUDREY LEUNG</a>
+          </div>
+          <div class="collapse navbar-collapse">
+               <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+               </ul>
+          </div>
+
+  </div>
+</div>
+
+
+<!-- Single Project Section -->
+
+<section id="single-project">
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-offset-1 col-md-10 col-sm-12">
+                    <h1>EudaeSense</h1>
+                    <h5>Wearable sensors for emotional well-being</h5>
+                    <a href="https://prod.ischool.berkeley.edu/projects/2016/EudaeSense" target="_blank"><i class="fa fa-long-arrow-right"></i> View Website</a>
+
+                    <div class="col-md-12 col-sm-12">
+                    <img src="images/eudaesense/es_banner_final.png" class="img-responsive" alt="EudaeSense Banner">
+                    </div>
+
+                    <div class="clearfix"></div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Roles</h3>
+                         <h5>Design Researcher <br>
+                         Data Scientist <br> Project Manager</h5>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Methods</h3>
+                         <h5>Competitive Analysis <br> Interviews <br> Diary Study <br> Survey <br> Usability Testing </h5>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4">
+                         <h3>Deliverables</h3>
+                          <a href="images/eudaesense/eudaesense_finalreport.pdf" target="_blank"><p3>Final Report <i class="fa fa-external-link"></i><br></p3></a>  
+                        <a href="images/eudaesense/eudaesense_finalslides.pdf" target="_blank"><p3>Final Presentation <i class="fa fa-external-link"></i><br></p3></a> 
+                        <a href="https://www.youtube.com/watch?v=ntxkWkO-r4s&feature=youtu.be" target="_blank"><p3>Video Demo <i class="fa fa-external-link"></i><br></p3></a>        
+                    </div>
+
+                    <div class="col-md-12 col-sm-12">
+                         <strong>CHALLENGE</strong>
+                         <p>The single biggest issue underlying mental health applications today is the high attrition rates and the struggle to maintain engagement and adherence. The vast majority of mood tracking applications today have this drawback: they require too much user input and effort. Through our research, we found there are four design strategies for helping online applications maintain engagement: interactive strategy, personal strategy, supportive strategy, and social strategy. There are also two general groups of interventions for mental health: in person one-on-one interventions, and online based interventions. The application we built was a smartwatch-to-smartphone multi-platform application.</p>
+                         
+                         <br><br>
+                         
+                         <strong>PROCESS</strong>
+                         <p>This was an interdisciplinary project, combining user research, hardware sensor data mining and machine learning, user experience design, and Android wear development. <br><br>
+
+                        Industry Landscape Analysis and Secondary Research <br>
+                        We performed research on the background of various mental health disorders, phases and types of depression, and the competitive landscape. We also researched prior research and publications on the topic of mood analysis and mental health interventions through mobile or wearable devices. Through our research, we identified five indicators of depression detectable through wearable sensors: social interaction, mobility, sleep patterns, phone usage, and nocturnal temperature. Through interviewing several psychologists and medical experts, we found that depression was often comorbid with sleep, which is currently readily trackable through current wearable devices. Therefore, we decided to focus on initially addressing this concern in order to increase overall happiness and emotional well-being.  <br><br>
+
+                        <p> Primary User Research <br>
+                        Given that mental health is an ethically-sensitive topic, we focused in on a very specific user population: university students who struggle with sleep. Years of research have shown that sleep and mood are deeply intertwined. Sleep related issues such as insomnia and hypersomnia are also prevalent symptoms of depression, so we decided to study sleep as the primary variable of mental health.
+
+                        We used a total of seven user research methods throughout the course of the project. These techniques helped us better understand our users’ relationship with sleep, their experiences and struggles with wearable technology, and the different methods and techniques they have applied to improve health and wellness. The methods used were: <br> </p>
+
+                        <li> Expert Interviews </li>
+                        <li> Diary Study </li>
+                        <li> Survey </li>
+                        <li> Interviews </li>
+                        <li> Usability Study </li>
+
+                         <br><br>
+
+                        <p> Data Collection and Predictive Modeling of Mood <br>
+                        We created a mobile application to collect self-reported mood and activity scores using the experience sampling method (ESM) as well as linked Fitbit data to a local server. Then, we recruited 18 participants to track and report their Fitbit data as well as complete our surveys over a two-week period. Participants that downloaded our application were prompted via a notification on their smartphone, randomly four times per day to complete a mood survey designed to assess their current mood. The questions were derived from the two dimensional Circumplex Mood Model, which corresponds to dimensions of pleasure and arousal. <br><br>
+
+                        As a benchmark for comparison, the baseline accuracy was 45% — predicting the majority class, which was a neutral mood. Many of the other classifiers we tried as group, such as SVM, linear regression, and decision trees, performed worse than the baseline. Our top results came from using the aggregated dataset (aggregate activity and mood by day) as well as discrete mood data. Our best results came from the random forest, neural network and logistic regression algorithms, with the highest accuracy of mood-prediction at 80%. <br><br>
+
+                        High-Fidelity Prototyping <br>
+                        We conducted a design sprint to brainstorm several different concept designs for the interventions in the form of cognitive behavioral therapy for insomnia as well as positive psychology on Android Wear and mobile devices. All of our brainstormed interventions fell into one of three psychotherapy groups: relaxation and mindfulness, positive psychology, and cognitive behavioral therapy. In total, we produced high-fidelity working prototypes for the Android smartwatch for four of the interventions using Sketch, InVision, and Android Studio. <br><br>
+
+                        In the evening, the user is prompted to put the day to rest. <br><br>
+
+                        <img src="images/eudaesense/PM.png" alt="EudaeSense evening"><br><br>
+
+                        In the morning, the is reminded of previous day’s "to do" item upon waking. <br><br>
+
+                        <img src="images/eudaesense/AM.png" alt="EudaeSense morning"><br><br>
+                         
+                        <strong>OUTCOME</strong>
+                        <p>WBased on tracked physiological data, experience sampling, and an ever-improving machine learning algorithm, EudaeSense sends personalized mood-lifting exercises or interventions to the user throughout the day.<br><br>
+
+                        <br> <img src="images/eudaesense/diagram.png" alt="EudaeSense Diagram"><br>
+
+                        The predictive mood-lifting exercises were derived from existing research on cognitive behavioral therapy, in tandem with expert interviews and user studies which uncovered new and novel approaches to digital mental health management. These contextually-relevant, just-in-time interventions were pushed to users discreetly on their smartwatch. </p>       
+                    </div>
+               </div>
+
+          </div>
+     </div>
+</section>
+
+<!-- Footer Section -->
+
+<footer>
+     <div class="container">
+          <div class="row">
+
+               <div class="col-md-6 col-sm-6">
+                    <div class="footer-copyright">
+                         <p>© 2018 Audrey Leung</p>
+                    </div>
+               </div>
+
+               <div class="col-md-6 col-sm-6">
+                    <ul class="social-icon">
+                         <li><a href="#" class="fa fa-github"></a></li>
+                         <li><a href="#" class="fa fa-linkedin"></a></li>
+                    </ul>
+               </div>
+               
+          </div>
+     </div>
+</footer>
+
+
+<!-- SCRIPTS -->
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
