@@ -822,10 +822,10 @@ footer .footer-copyright {
     padding-right: 0px;
   }
 
-  #about .image-responsive img{
+/*  #about .image-responsive img{
     -webkit-transition-duration: 0.5s;
     -moz-transition-duration: 0.5s;
-  }
+  }*/
 
   #blog-single-post .blog-post-title h2 {
     font-size: 29px;
