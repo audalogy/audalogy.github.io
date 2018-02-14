@@ -505,6 +505,104 @@ a:hover, a:active, a:focus {
   text-align: left;
 }
 
+/*CAROUSEL*/
+.concept-carousel-left, 
+    .concept-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
+    }
+
+    .concept-carousel-left {
+        left:0px;
+    }
+
+    .concept-carousel-right {
+        right:0px;
+    }
+
+    #concept-carousel .item img{
+        width: 100%;
+    }
+
+.screen-carousel-left, 
+    .screen-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
+    }
+
+    .screen-carousel-left {
+        left:0px;
+    }
+
+    .screen-carousel-right {
+        right:0px;
+    }
+
+    #screen-carousel .item img{
+        width: 100%;
+    }
+
+
+#single-project .slides-carousel-left, 
+    .slides-carousel-right {    
+        background-color: #f0f0f0;
+        color:#000;
+        font-size: 32px;
+        height: 40px;
+        line-height: 40px;
+        margin-top: -20px;
+        position: absolute;
+        text-align: center;
+        top: 50%;
+        width: 32px;
+        z-index: 999;
+        -webkit-transition: 1000ms;
+        -moz-transition: 1000ms;
+        -o-transition: 1000ms;
+        -ms-transition: 1000ms;
+        transition: 1000ms;
+    }
+
+    .slides-carousel-left {
+        left:0px;
+    }
+
+    .slides-carousel-right {
+        right:0px;
+    }
+
+    #slides-carousel .item img{
+        width: 100%;
+    }
+
 
 /*---------------------------------------
    Client section              
