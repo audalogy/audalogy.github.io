@@ -110,7 +110,7 @@ a:hover, a:active, a:focus {
 }
 
 #about {
-  padding-top: 25px;
+  padding-top: 24px;
   padding-bottom: 120px;
 }
 
@@ -966,11 +966,12 @@ body {
 
 .cd-horizontal-timeline ol, ul {
   list-style: none;
+  font-color: #777;
 }
 
 
 .cd-horizontal-timeline a {
-  color: #222;
+  color: #333;
   text-decoration: none;
 }
 
@@ -1115,7 +1116,7 @@ Horizontal Timeline - Main Components
 }
 @media only screen and (min-width: 1100px) {
   .cd-horizontal-timeline {
-    margin: 6em auto;
+    margin: 5em auto;
   }
   .cd-horizontal-timeline::before {
     /* never visible - this is used in jQuery to check the current MQ */
