@@ -101,12 +101,16 @@ a:hover, a:active, a:focus {
 }
 
 #portfolio,
-#about,
 #blog,
 #contact,
 #single-project,
 #blog-single-post {
   padding-top: 80px;
+  padding-bottom: 120px;
+}
+
+#about {
+  padding-top: 25px;
   padding-bottom: 120px;
 }
 
@@ -1258,6 +1262,7 @@ Horizontal Timeline - Main Components
 .cd-horizontal-timeline .events-content em::before {
 /*  content: '- ';
 */}
+
 .cd-horizontal-timeline .events-content p {
   font-size: 1.4rem;
   color: #777;
